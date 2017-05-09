@@ -9,7 +9,7 @@ WORKDIR /var/jenkins_home
 # Logging configuration
 ENV LOGGING_CONF handlers=java.util.logging.ConsoleHandler \
 jenkins.level=FINEST \
-java.util.logging.ConsoleHandler.level=FINEST \
+java.util.logging.ConsoleHandler.level=FINEST 
 
 # Java configuration
 #ENV JAVA_OPTS
