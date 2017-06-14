@@ -24,3 +24,4 @@ RUN mkdir data && echo $LOGGING_CONF > data/log.properties
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
+RUN apk add maven docker
